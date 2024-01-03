@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* Configuracion Titúlo */
+h1 {
+  color: black;
+  text-align: center;
+  font-size: 280%;
+  margin: 10px 0px;
+}
+
+/* Estilo de la Calculadora */
+.calc {
+  width: 45%;
+  position: absolute;
+  top: 13%;
+  left: 34.3%;
+}
+
+/* Resultado de la Calculadora */
+.value {
+  color: white;
+  text-align: right;
+  font-size: 40px;
+  font-weight: bold;
+  height: 0px;
+  padding: 0px 40px 70px 0px;
+}
+
+/* Todas Teclas de la Calculadora */
+.comp {
+  width: 70%;
+  background-color: black;
+  padding: 58px;
+  border-radius: 5cqh;
+}
+
+/* Teclas individuales de la Calculadora */
+button {
+  color: white;
+  margin: 5px;
+  padding: 20px;
+  height: 60px;
+  width: 60px;
+  font-size: 15px;
+  background-color: rgb(156, 156, 156);
+  border-radius: 5cqh;
+  border: none;
+  cursor: pointer;
+}
+
+#porcentaje {
+  color: black;
+  font-weight: bolder;
+}
+/* Teclas de la calculadora organizadas en grupos de a 4 horizontalmente */
+.one .two .tree .four .five {
+  display: inline-block;
+}
+
+/* Teclas de las operaciones de la Calculadoras */
+.operations {
+  background-color: chocolate;
+  transition-property: background-color;
+  transition: 1s;
+  color: white;
+  font-weight: bolder;
+}
+
+.operations:hover {
+  background-color: white;
+}
+
+/* Tecla 0 de la calculadora */
+.cero {
+  width: 44.5%;
+}
+
+.limpiar {
+  width: 44.5%;
+  color: black;
+  font-weight: bolder;
+}
